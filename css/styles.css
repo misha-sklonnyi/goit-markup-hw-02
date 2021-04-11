@@ -50,7 +50,6 @@ body {
   font-family: var(--title-font);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-cl);
 }
 
@@ -105,13 +104,11 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-cl);
 }
 
 .title {
   font-family: var(--main-font);
-  letter-spacing: 0.03em;
   color: var(--title-cl);
 }
 
@@ -128,11 +125,13 @@ a {
   text-align: center;
 }
 
-. .address {
+.address {
   font-style: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--alt-title-cl);
 }
 .title-lable {
-  letter-spacing: 0.03em;
   color: var(--main-text-cl);
 }
 
@@ -150,7 +149,6 @@ a {
 .vault-navi {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -160,7 +158,6 @@ a {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-cl);
 }
 
