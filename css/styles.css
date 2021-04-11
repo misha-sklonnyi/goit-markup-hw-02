@@ -35,24 +35,30 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--title-cl);
 }
 
-.accent {
+.link:hover,
+.link:focus {
   color: var(--accent-cl);
 }
 
-.accent-phone {
+.accent-nav {
   color: var(--main-text-cl);
+  text-decoration: none;
 }
 
 .logo {
   font-family: var(--title-font);
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
   color: var(--accent-cl);
 }
-
+.half-title {
+  color: var(--title-cl);
+}
 .dark-bg {
   background-color: var(--dark-bg);
 }
@@ -80,14 +86,11 @@ body {
   color: var(--alt-title-cl);
 }
 
-.hide-h2 {
+.hide {
   display: none;
 }
 .list {
   list-style: none;
-}
-
-a {
   text-decoration: none;
 }
 
@@ -150,6 +153,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /*портфолио*/
@@ -158,7 +162,15 @@ a {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  text-decoration: none;
+  cursor: pointer;
   color: var(--title-cl);
+  background-color: var(--team-bg);
+}
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+  color: var(--alt-title-cl);
+  background-color: var(--accent-bg);
 }
 
 .section-title-pf {
