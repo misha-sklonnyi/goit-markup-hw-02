@@ -70,12 +70,12 @@ body {
   background-color: var(--accent-bg);
 }
 
-.button:hover,
-.button:focus {
+.key:hover,
+.key:focus {
   color: var(--alt-title-cl);
 }
 
-.button {
+.key {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
